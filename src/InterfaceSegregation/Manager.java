@@ -1,7 +1,7 @@
 package InterfaceSegregation;
 
 public class Manager {
-    Workable worker;
+    /*Workable worker;
     public void setWorker(Workable w) { worker=w; }
-    public void manage() { worker.work(); }
+    public void manage() { worker.work(); }*/
 }
