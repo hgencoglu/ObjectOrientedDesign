@@ -1,4 +1,4 @@
 package CreationalPatterns.FactoryMethod;
 
-public interface Product {
+public interface IProduct {
 }

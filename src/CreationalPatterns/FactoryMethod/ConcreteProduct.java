@@ -1,5 +1,5 @@
 package CreationalPatterns.FactoryMethod;
 
-public class ConcreteProduct implements Product {
+public class ConcreteProduct implements IProduct {
     String ad = "ConcreteProduct";
 }

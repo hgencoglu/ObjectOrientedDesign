@@ -1,8 +1,8 @@
 package CreationalPatterns.FactoryMethod;
 
 public abstract class Factory {
-    public void anOperation()  { Product product = factoryMethod(); }
+    public void anOperation()  { IProduct IProduct = factoryMethod(); }
 
-    protected abstract Product factoryMethod();
+    protected abstract IProduct factoryMethod();
 
 }

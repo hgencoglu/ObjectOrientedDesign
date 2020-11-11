@@ -3,13 +3,13 @@ package CreationalPatterns.BuilderPattern;
 public class Client {
     public static void main(String[] args)
     {
-        HouseBuilder iglooBuilder = new IglooHouseBuilder();
-        CivilEngineer engineer = new CivilEngineer(iglooBuilder);
+        IMuteahhit iglooBuilder = new IgloTipiEv();
+        Muhendis muhendis = new Muhendis(iglooBuilder);
 
-        engineer.constructHouse();
+        muhendis.InsaataBasla();
 
-        House house = engineer.getHouse();
+        IEv ev = muhendis.getHouse();
 
-        System.out.println("Builder constructed: "+ house);
+        System.out.println("Builder constructed: "+ ev);
     }
 }
