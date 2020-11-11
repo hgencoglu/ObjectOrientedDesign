@@ -58,4 +58,11 @@ public class ObjectPoolDemo{
         }
     }
 
+    public static void main(String args[])  {
+        ObjectPoolDemo op=new ObjectPoolDemo();
+        op.setUp();
+        op.tearDown();
+        op.testObjectPool();
+    }
+
 }//End of the ObjectPoolDemo class.
