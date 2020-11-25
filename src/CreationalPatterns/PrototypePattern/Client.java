@@ -40,5 +40,9 @@ public class Client {
         System.out.print(e2);
         System.out.print("\n");
 
+        CalisanKayit e3 = (CalisanKayit) e1.getClone();
+        e3.showRecord();;
+        System.out.println(e3);
+
     }
 }//End of the ProtoypeDemo class.
